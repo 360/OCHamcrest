@@ -21,7 +21,11 @@
 - (void) subclassResponsibility:(SEL)command
 {
     [NSException raise:NSGenericException
+				#if (TARGET_OS_IPHONE)
+                format:@"-[%@  %s] not implemented", [NSString stringWithUTF8String:class_getName([self class])], command];
+                #else
                 format:@"-[%@  %s] not implemented", [self className], command];
+                #endif
 }
 
 @end

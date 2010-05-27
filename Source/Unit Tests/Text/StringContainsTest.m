@@ -10,7 +10,7 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCStringContains.h>
+#import "HCStringContains.h"
 
 
 static NSString* EXCERPT = @"EXCERPT";

@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsDictionaryContainingKey.h>
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCIsDictionaryContainingKey.h"
+#import "HCIsEqual.h"
 
 
 @interface IsDictionaryContainingKeyTest : AbstractMatcherTest

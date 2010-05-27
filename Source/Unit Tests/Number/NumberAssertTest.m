@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCNumberAssert.h>
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCNumberAssert.h"
+#import "HCIsEqual.h"
 
 
 @interface NumberAssertTest : SenTestCase

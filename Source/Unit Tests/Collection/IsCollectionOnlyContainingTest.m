@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsCollectionOnlyContaining.h>
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCIsCollectionOnlyContaining.h"
+#import "HCIsEqual.h"
 
 
 @interface IsCollectionOnlyContainingTest : AbstractMatcherTest

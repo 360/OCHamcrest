@@ -6,7 +6,7 @@
 //
 
     // Inherited
-#import <OCHamcrest/HCSubstringMatcher.h>
+#import "HCSubstringMatcher.h"
 
 
 /**

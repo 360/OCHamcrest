@@ -10,9 +10,9 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsNil.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCIsNil.h"
+#import "HCIsNot.h"
+#import "HCMatcherAssert.h"
 
 
 @interface IsNilTest : AbstractMatcherTest

@@ -10,7 +10,7 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCStringEndsWith.h>
+#import "HCStringEndsWith.h"
 
 
 static NSString* EXCERPT = @"EXCERPT";

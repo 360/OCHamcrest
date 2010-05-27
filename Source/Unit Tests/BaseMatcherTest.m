@@ -9,8 +9,8 @@
 #import "AbstractMatcherTest.h"
 
     // OCHamcrest
-#import <OCHamcrest/HCBaseMatcher.h>
-#import <OCHamcrest/HCDescription.h>
+#import "HCBaseMatcher.h"
+#import "HCDescription.h"
 
 
 @interface TestingBaseMatcher : HCBaseMatcher

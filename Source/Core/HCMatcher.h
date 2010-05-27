@@ -6,7 +6,7 @@
 //
 
     // Inherited
-#import <OCHamcrest/HCSelfDescribing.h>
+#import "HCSelfDescribing.h"
 
 
 /**

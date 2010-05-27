@@ -10,10 +10,10 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCAnyOf.h>
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCAnyOf.h"
+#import "HCIsEqual.h"
+#import "HCIsNot.h"
+#import "HCMatcherAssert.h"
 
 
 @interface AnyOfTest : AbstractMatcherTest

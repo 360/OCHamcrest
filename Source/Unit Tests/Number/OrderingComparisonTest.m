@@ -10,9 +10,9 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCOrderingComparison.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCOrderingComparison.h"
+#import "HCIsNot.h"
+#import "HCMatcherAssert.h"
 
 @interface OrderingComparisonTest : AbstractMatcherTest
 @end

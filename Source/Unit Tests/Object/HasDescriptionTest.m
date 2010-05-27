@@ -10,10 +10,10 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCHasDescription.h>
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCHasDescription.h"
+#import "HCIsEqual.h"
+#import "HCIsNot.h"
+#import "HCMatcherAssert.h"
 
 
 static NSString* DESCRIPTION_RESULT = @"description result";

@@ -10,9 +10,9 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsEqualIgnoringCase.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCIsEqualIgnoringCase.h"
+#import "HCIsNot.h"
+#import "HCMatcherAssert.h"
 
 
 @interface IsEqualIgnoringCaseTest : AbstractMatcherTest

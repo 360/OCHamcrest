@@ -6,7 +6,7 @@
 //
 
     // Inherited
-#import <OCHamcrest/HCInvocationMatcher.h>
+#import "HCInvocationMatcher.h"
 
 
 /**

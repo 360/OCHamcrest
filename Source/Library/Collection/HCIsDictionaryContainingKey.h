@@ -6,7 +6,7 @@
 //
 
     // Inherited
-#import <OCHamcrest/HCBaseMatcher.h>
+#import "HCBaseMatcher.h"
 
 
 @interface HCIsDictionaryContainingKey : HCBaseMatcher

@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsEqualToNumber.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCIsEqualToNumber.h"
+#import "HCMatcherAssert.h"
 
 
 @interface IsEqualToBoolTest : AbstractMatcherTest

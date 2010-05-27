@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCMatcherAssert.h>
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCMatcherAssert.h"
+#import "HCIsEqual.h"
 
 @interface QuietTestRun : SenTestCaseRun
 {

@@ -10,8 +10,8 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsAnything.h>
-#import <OCHamcrest/HCMatcherAssert.h>
+#import "HCIsAnything.h"
+#import "HCMatcherAssert.h"
 
 
 @interface IsAnythingTest : AbstractMatcherTest

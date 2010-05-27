@@ -10,9 +10,9 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCInvocationMatcher.h>
-#import <OCHamcrest/HCDescription.h>
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCInvocationMatcher.h"
+#import "HCDescription.h"
+#import "HCIsEqual.h"
 
 
 @interface Match : HCIsEqual

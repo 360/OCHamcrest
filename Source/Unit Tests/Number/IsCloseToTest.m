@@ -10,7 +10,7 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsCloseTo.h>
+#import "HCIsCloseTo.h"
 
 
 @interface IsCloseToTest : AbstractMatcherTest

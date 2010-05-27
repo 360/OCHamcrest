@@ -10,7 +10,7 @@
 
     // OCHamcrest
 #define HC_SHORTHAND
-#import <OCHamcrest/HCStringStartsWith.h>
+#import "HCStringStartsWith.h"
 
 
 static NSString* EXCERPT = @"EXCERPT";

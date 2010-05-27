@@ -6,40 +6,40 @@
 //
 
     // Unit test integration
-#import <OCHamcrest/HCMatcherAssert.h>
-#import <OCHamcrest/HCNumberAssert.h>
+#import "HCMatcherAssert.h"
+#import "HCNumberAssert.h"
 
     // Core
-#import <OCHamcrest/HCAllOf.h>
-#import <OCHamcrest/HCAnyOf.h>
-#import <OCHamcrest/HCDescribedAs.h>
-#import <OCHamcrest/HCIs.h>
-#import <OCHamcrest/HCIsAnything.h>
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCIsInstanceOf.h>
-#import <OCHamcrest/HCIsNil.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCIsSame.h>
+#import "HCAllOf.h"
+#import "HCAnyOf.h"
+#import "HCDescribedAs.h"
+#import "HCIs.h"
+#import "HCIsAnything.h"
+#import "HCIsEqual.h"
+#import "HCIsInstanceOf.h"
+#import "HCIsNil.h"
+#import "HCIsNot.h"
+#import "HCIsSame.h"
 
     // Library: Collection
-#import <OCHamcrest/HCIsCollectionContaining.h>
-#import <OCHamcrest/HCIsCollectionOnlyContaining.h>
-#import <OCHamcrest/HCIsDictionaryContaining.h>
-#import <OCHamcrest/HCIsDictionaryContainingKey.h>
-#import <OCHamcrest/HCIsDictionaryContainingValue.h>
-#import <OCHamcrest/HCIsIn.h>
+#import "HCIsCollectionContaining.h"
+#import "HCIsCollectionOnlyContaining.h"
+#import "HCIsDictionaryContaining.h"
+#import "HCIsDictionaryContainingKey.h"
+#import "HCIsDictionaryContainingValue.h"
+#import "HCIsIn.h"
 
     // Library: Number
-#import <OCHamcrest/HCIsCloseTo.h>
-#import <OCHamcrest/HCIsEqualToNumber.h>
-#import <OCHamcrest/HCOrderingComparison.h>
+#import "HCIsCloseTo.h"
+#import "HCIsEqualToNumber.h"
+#import "HCOrderingComparison.h"
 
     // Library: Object
-#import <OCHamcrest/HCHasDescription.h>
+#import "HCHasDescription.h"
 
     // Library: Text
-#import <OCHamcrest/HCIsEqualIgnoringCase.h>
-#import <OCHamcrest/HCIsEqualIgnoringWhiteSpace.h>
-#import <OCHamcrest/HCStringContains.h>
-#import <OCHamcrest/HCStringEndsWith.h>
-#import <OCHamcrest/HCStringStartsWith.h>
+#import "HCIsEqualIgnoringCase.h"
+#import "HCIsEqualIgnoringWhiteSpace.h"
+#import "HCStringContains.h"
+#import "HCStringEndsWith.h"
+#import "HCStringStartsWith.h"
